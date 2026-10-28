@@ -296,8 +296,6 @@ Application data is stored locally in the current browser. Clearing browser stor
 **Domain:** AI-powered application validation, document authentication and regulatory compliance verification  
 **Intended users:** Regulatory officers and institutional application reviewers
 
-**Team members:** Add the names and responsibilities of all six members.
-
 ---
 
 ## ⭐ Project Vision
