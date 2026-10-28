@@ -1,4 +1,4 @@
-# AuthenIQ — AuthenIQ | SIH 2026 PS 26261 Prototype
+#                                                          AuthenIQ | SIH 2026 PS 26261 Prototype
 
 **Problem statement:** PS 26261 — “AI-Powered Application Validation, Document Authentication and Regulatory Compliance Verification” (AICTE Regulation Bureau).
 
