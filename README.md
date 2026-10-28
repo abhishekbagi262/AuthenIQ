@@ -1,4 +1,4 @@
-# 🔎 VerifyFlow — AI-Powered Application Validation & Regulatory Compliance
+# 🔎 AuthenIQ — AI-Powered Application Validation & Regulatory Compliance
 
 <p align="center">
 
@@ -27,15 +27,15 @@ Regulatory application review involves examining institutional information, supp
 
 The challenge is not simply to extract text from documents. Reviewers need a structured way to identify potential issues, understand the evidence behind each finding, determine which checks remain unresolved and record their decisions.
 
-**VerifyFlow addresses this workflow challenge through a browser-based decision-support prototype designed around PS 26261.**
+**AuthenIQ addresses this workflow challenge through a browser-based decision-support prototype designed around PS 26261.**
 
 ## 💡 Our Solution
 
-VerifyFlow brings application intake, local document text extraction, preliminary validation, configurable sample compliance rules, simulated source-verification scenarios and officer review into one workflow.
+AuthenIQ brings application intake, local document text extraction, preliminary validation, configurable sample compliance rules, simulated source-verification scenarios and officer review into one workflow.
 
-Instead of treating every automated flag as a final conclusion, VerifyFlow distinguishes preliminary findings from source-backed verification and leaves regulatory decisions to the responsible officer.
+Instead of treating every automated flag as a final conclusion, AuthenIQ distinguishes preliminary findings from source-backed verification and leaves regulatory decisions to the responsible officer.
 
-### 🎯 What makes VerifyFlow different?
+### 🎯 What makes AuthenIQ different?
 
 - **Evidence-led review:** Findings are presented alongside available extracted text and application information.
 - **Multiple verification states:** Six distinct statuses represent different outcomes and unresolved checks.
@@ -47,7 +47,7 @@ Instead of treating every automated flag as a final conclusion, VerifyFlow disti
 
 ---
 
-## ⚙️ How VerifyFlow Works
+## ⚙️ How AuthenIQ Works
 
 ```mermaid
 flowchart TD
@@ -84,7 +84,7 @@ flowchart TD
 
 ## 🛡️ Six Verification Statuses
 
-VerifyFlow separates document verification status from the overall application decision.
+AuthenIQ separates document verification status from the overall application decision.
 
 | Status | Meaning in the prototype |
 |---|---|
@@ -175,7 +175,7 @@ PDF.js and Tesseract.js are loaded through public CDNs. Their extraction feature
 
 ## 🔐 Privacy, Security and Responsible Use
 
-VerifyFlow is designed to demonstrate a review workflow without uploading selected documents to a project backend.
+AuthenIQ is designed to demonstrate a review workflow without uploading selected documents to a project backend.
 
 - Selected files are processed locally in the browser for extraction.
 - Extracted text snippets and associated metadata are saved in browser `localStorage`.
@@ -207,7 +207,7 @@ These checks demonstrate expected behaviour for selected scenarios. They do **no
 
 ## 🚧 Current Limitations
 
-VerifyFlow is a functional demonstration prototype, not a production regulatory platform.
+AuthenIQ is a functional demonstration prototype, not a production regulatory platform.
 
 - Regulatory rules and thresholds are illustrative, not a complete validated implementation of the AICTE Approval Process Handbook.
 - PDF extraction is limited to embedded text on the first three pages; scanned-PDF OCR processes only the first page.
@@ -240,7 +240,7 @@ These limitations are explicit so that the prototype's demonstrated capabilities
 
 ### Prerequisites
 - A modern web browser
-- The extracted VerifyFlow project folder
+- The extracted AuthenIQ project folder
 - Internet access to load PDF.js and Tesseract.js from their CDNs
 
 ### Run locally
@@ -283,13 +283,13 @@ Application data is stored locally in the current browser. Clearing browser stor
 5. **SIH 2026** — Problem Statement 26261, AICTE Regulation Bureau.  
    Add the exact official problem-statement URL from the SIH portal before final submission.
 
-*References provide background for the proposed approach. They do not establish that VerifyFlow is officially endorsed, integrated or compliant with every applicable AICTE requirement.*
+*References provide background for the proposed approach. They do not establish that AuthenIQ is officially endorsed, integrated or compliant with every applicable AICTE requirement.*
 
 ---
 
 ## 👥 Team AuthenIQ
 
-**Project:** VerifyFlow  
+**Project:** AuthenIQ  
 **Hackathon:** Smart India Hackathon 2026  
 **Problem Statement:** PS 26261  
 **Domain:** AI-powered application validation, document authentication and regulatory compliance verification  
@@ -303,7 +303,7 @@ Application data is stored locally in the current browser. Clearing browser stor
 
 Our goal is to demonstrate how structured validation, transparent findings and human oversight can support a more consistent regulatory application-review workflow.
 
-**VerifyFlow does not replace the authority. It helps organise the evidence, surface potential issues and make review decisions easier to trace.**
+**AuthenIQ does not replace the authority. It helps organise the evidence, surface potential issues and make review decisions easier to trace.**
 
 ---
 
