@@ -161,11 +161,12 @@ The test bench evaluates selected deterministic routing cases, not real-world de
 
 | Technology | Role |
 |---|---|
-| HTML, CSS and JavaScript | Browser interface and application workflow |
-| PDF.js | Embedded PDF text extraction and page rendering |
-| Tesseract.js | Browser-based OCR for supported document scans and images |
+| Python, HTML, CSS and JavaScript | Browser interface and application workflow |
+| PaddleOCR | Embedded PDF text extraction and page rendering |
+| PostgreSQL | Database Management |
+| Mermaid | Document Processing |
 | Browser `localStorage` | Local demo application data, extracted snippets and action history |
-| Mermaid | Workflow documentation |
+
 
 PDF.js and Tesseract.js are loaded through public CDNs. Their extraction features require network access to load the libraries.
 
