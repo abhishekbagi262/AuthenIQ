@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10263e">
+  <title>AuthenIQ | AICTE PS 26261</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" data-nav="dashboard" aria-label="AuthenIQ dashboard">
+        <span class="brand-mark">AIQ</span>
+        <span><strong>AuthenIQ</strong><small>AUTHENIQ · AICTE PS 26261</small></span>
+      </a>
+      <div class="role-card">
+        <span class="eyebrow">PORTAL SELECTOR</span>
+        <label for="roleSelect">Demo portal</label>
+        <select id="roleSelect" aria-label="Switch demo role">
+          <option value="admin">AICTE Admin Portal</option>
+          <option value="institution">Institution Portal</option>
+        </select>
+      </div>
+      <nav class="side-nav" aria-label="Main navigation">
+        <span class="nav-label">WORKSPACE</span>
+        <button class="nav-item active" data-nav="dashboard"><span class="nav-icon">▦</span>Home</button>
+        <button class="nav-item" data-nav="applications"><span class="nav-icon">▤</span><span id="applicationsNavLabel">Applications</span><span class="nav-count" id="navCount"></span></button>
+        <button class="nav-item" data-nav="create" id="createNav" hidden><span class="nav-icon">＋</span>Create application</button>
+        <button class="nav-item" data-nav="compliance" id="complianceNav"><span class="nav-icon">✓</span>Compliance rules</button>
+        <button class="nav-item" data-nav="testbench" id="testbenchNav"><span class="nav-icon">⚗</span>PS test bench</button>
+        <span class="nav-label nav-label-spaced">INSIGHTS</span>
+        <button class="nav-item" data-nav="reports"><span class="nav-icon">▥</span>Reports</button>
+        <button class="nav-item" data-nav="audit"><span class="nav-icon">◷</span>Audit trail</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="demo-note"><span class="demo-dot"></span><span><strong>Local demo</strong><small>Not connected to AICTE systems</small></span></div>
+        <button class="text-button reset-button" id="resetDemo" hidden>↻ Reset demo data</button>
+        <div class="sidebar-foot">AuthenIQ prototype · 2026</div>
+      </div>
+    </aside>
+
+    <div class="main-column">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Toggle navigation">☰</button>
+        <div class="breadcrumb"><span>AuthenIQ</span><b>/</b><strong id="pageCrumb">Home</strong></div>
+        <div class="topbar-actions">
+          <span class="demo-pill"><span class="demo-dot"></span> DEMO MODE</span>
+          <span class="topbar-divider"></span>
+          <div class="user-chip"><span class="avatar" id="userAvatar">AD</span><span><strong id="userName">Administrator</strong><small id="userRoleText">AICTE demo access</small></span></div>
+        </div>
+      </header>
+      <main id="mainContent" tabindex="-1"></main>
+      <footer class="page-footer"><span>AuthenIQ · AuthenIQ</span><span>Local demonstration prototype · Preliminary checks only</span></footer>
+    </div>
+  </div>
+
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+  <div class="modal-backdrop" id="detailBackdrop" hidden>
+    <section class="detail-modal" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+      <div class="modal-loading" id="modalContent"></div>
+    </section>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="app.js"></script>
+</body>
+</html>
